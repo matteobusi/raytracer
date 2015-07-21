@@ -1,0 +1,2 @@
+quickcg.h
+quickcg.cpp

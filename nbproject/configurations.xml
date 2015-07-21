@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>BVH.h</itemPath>
+      <itemPath>BoundingBox.h</itemPath>
+      <itemPath>Camera.h</itemPath>
+      <itemPath>Color.h</itemPath>
+      <itemPath>Image.h</itemPath>
+      <itemPath>Light.h</itemPath>
+      <itemPath>Material.h</itemPath>
+      <itemPath>Ray.h</itemPath>
+      <itemPath>Scene.h</itemPath>
+      <itemPath>Sphere.h</itemPath>
+      <itemPath>Surface.h</itemPath>
+      <itemPath>Triangle.h</itemPath>
+      <itemPath>Vector.h</itemPath>
+      <itemPath>tiny_obj_loader.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>BVH.cpp</itemPath>
+      <itemPath>BoundingBox.cpp</itemPath>
+      <itemPath>Camera.cpp</itemPath>
+      <itemPath>Image.cpp</itemPath>
+      <itemPath>Ray.cpp</itemPath>
+      <itemPath>Scene.cpp</itemPath>
+      <itemPath>Sphere.cpp</itemPath>
+      <itemPath>Triangle.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>tiny_obj_loader.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandLine>-Wall -O3 -Ofast</commandLine>
+        </ccTool>
+      </compileType>
+      <item path="BVH.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BVH.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BoundingBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BoundingBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Color.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Light.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Material.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Scene.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Scene.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sphere.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sphere.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Surface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Triangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Triangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tiny_obj_loader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tiny_obj_loader.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="BVH.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BVH.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BoundingBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BoundingBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Camera.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Color.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Light.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Material.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Scene.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Scene.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sphere.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sphere.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Surface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Triangle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Triangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tiny_obj_loader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tiny_obj_loader.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
